@@ -1,0 +1,21 @@
+.link-caption {
+  color: #ffbe5c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.link-icon {
+  fill: #ffbe5c;
+  width: 24px;
+}
+@media(max-width: 991px) {
+  .link-caption {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .link-icon {
+    fill: #ffbe5c;
+  }
+}
